@@ -6,7 +6,6 @@ const getData = require('../apicall/Translate_Text');
 
 router.post('/',(req,res)=>{
     const data = req.body;
-    console.log(data);
 
     const src = data.source_language;
     const content = data.content;
