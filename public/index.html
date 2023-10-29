@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Translate Text</title>
+  <header>
+    <h1><u><b>Translate Text</b></u></h1>
+  </header>
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="loading-spinner"></div>
+  
+  <div class="container">
+    <div class="left">
+      <label for="source-language">Source Language:</label>
+      <select id="source-language" name="source-language">
+        <!--Options Will be here-->
+      </select>
+  
+      <label for="source-text">Source Text:</label>
+      <textarea id="source-text" name="source-text" maxlength="500" data-testid="rt-input-component" class="form-input" type="textarea" placeholder="Enter source text here....."></textarea>
+    </div>
+  
+    <div class="right">
+      <label for="target-language">Target Language:</label>
+      <select id="target-language" name="target-language">
+        <!--Options Will be here-->
+      </select>
+  
+      <label for="target-text">Target Text:</label>
+      <textarea id="target-text" name="target-text" maxlength="500" data-testid="rt-input-component" class="form-input" type="textarea" placeholder="Enter target text here....."></textarea>
+    </div>
+  </div>
+  
+  <div class="translate">
+    <button id="translate" type="submit">Translate</button>
+  </div>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>

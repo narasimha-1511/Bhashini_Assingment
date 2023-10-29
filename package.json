@@ -1,0 +1,20 @@
+{
+  "name": "backend-assingment",
+  "version": "1.0.0",
+  "description": "this fetches the information from backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "narasimha",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
